@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Without Walls</title>
+    <style>
+        header{
+            text-align: center;
+            font-family:fantasy;
+            h3{
+                font-weight: 500;
+                color: rgb(41, 24, 92);
+                text-align: left;
+                font-family: cursive;
+            }
+            h1{
+                font-weight: 1100;
+                color:rgb(23, 55, 77);
+                font-size: 330%;
+                text-align: left;
+                margin: 2%;
+            
+            }
+            background-color: rgb(133, 182, 161);
+            background-image: url(/images1/cover5.jpg);
+            height: 40vh;
+            width: 100%;
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+        }
+        
+        body{
+            /* background-image:url(/images1/cover3.jpeg); */
+            background-color: rgb(195, 224, 244);
+        }
+        .first{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .second{list-style: none;
+            margin: 0;
+            padding: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .third{list-style: none;
+            margin: 0;
+            padding: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            justify-content: space-between;}
+
+        .head{ list-style: none;
+            margin: 0;
+            padding: 0;
+            padding-left: 25px;
+            padding-right: 25px;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(75, 122, 161);
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 40px;
+            align-items: center;
+            font-size: larger;
+            }
+            footer{
+                background-color:rgba(20, 53, 94, 0.551);
+                color: white;
+                text-align: center;
+            }
+            .search-bar {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.flatbox{
+    border: 1px solid #bfced6;
+    border-radius: 9px;
+    background-color: rgb(212, 227, 244);
+    width: 100%;
+}
+h3{
+    padding-left: 25px;
+    font-size: larger;
+}
+
+.search-bar:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button{
+    border-radius: 15px;
+    border-color: rgb(127, 184, 220);
+}
+
+        
+    </style>
+</head>
+<body>
+    <header>
+  <h1><br><br>WELCOME TO MY E-LIBRARY</h1><br> <br>
+  <h3>Empowering minds,one book at a time </h3><br><br></header>
+  <nav >
+    <ul class="head" >
+        <li><a href="#">Home</a></li>
+        <li><a href="/signup.html">Sign up</a></li>
+        <li><a href="/login.html">login</a></li>
+        <input type="search" name="search" id="search" placeholder="search" class="search-bar" 
+
+        >
+        <li><a href="/about.html">About us</a></li>
+        <li><a href="/testinomial.html">Book review</a>
+        </li>
+        <li><a href="/free.html">Free</a></li>
+    </ul>
+  </nav><br>
+  <section>
+    <div class="flatbox">
+    <h3>Bestsellers</h3>
+    <hr>
+    <ul class="first">
+        <button><li><img src="/images1/book1.jpeg" alt="book1"
+            height="250" width="180"><br>
+        <a href="https://www.bing.com/ck/a?!&&p=4c678e2dee8fca1533ec43c4794572a422fcf84f4e177cda9d8fb2e51f309929JmltdHM9MTczMjA2MDgwMA&ptn=3&ver=2&hsh=4&fclid=22e0d45a-bbe1-6c71-1299-c155ba536d5b&psq=martin+luther+king+jr&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTWFydGluX0x1dGhlcl9LaW5nX0pyLg&ntb=1">MARTIN LUTHER KING</a></li></button>
+       <button>
+        <li><img src="/images1/book2.jpeg" alt="book2"
+            height="250" width="180">
+            <br><a href="https://www.bing.com/ck/a?!&&p=602d5868c526a46bd648c1e31c6ae7afe5c17a8a95cfc24a8a9434b44f6b34d0JmltdHM9MTczMjA2MDgwMA&ptn=3&ver=2&hsh=4&fclid=22e0d45a-bbe1-6c71-1299-c155ba536d5b&psq=barack+obama&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQmFyYWNrX09iYW1h&ntb=1">BARACK OBAMA</a>
+       </button> </li>
+        <button><li><img src="/images1/book3.jpeg" alt="book3" 
+            height="250" width="180"><br>
+        <a href="https://www.bing.com/ck/a?!&&p=84e2cb19155c70da2f2eebff4790c6a09d8821097590f16ce951011c59272e49JmltdHM9MTczMjA2MDgwMA&ptn=3&ver=2&hsh=4&fclid=22e0d45a-bbe1-6c71-1299-c155ba536d5b&psq=benjamin+franklin&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQmVuamFtaW5fRnJhbmtsaW4&ntb=1">BENJAMIN FRANK</a></li>
+        </button>
+        <button>
+            <li><img src="/images1/book4.jpeg" alt="book4"
+            height="250" width="180"><br><a href="https://www.bing.com/ck/a?!&&p=d7a85c6e01937394cae07564bbf8265ae3153ac0a4b554677c75ffe76a84af91JmltdHM9MTczMjA2MDgwMA&ptn=3&ver=2&hsh=4&fclid=22e0d45a-bbe1-6c71-1299-c155ba536d5b&psq=nelson+mandela&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTmVsc29uX01hbmRlbGE&ntb=1">NELSON MANDELA</a></li>
+        </button>
+        <button><li><img src="/images1/book5.jpeg" alt="book5"
+            height="250" width="180"><br><a href="https://www.bing.com/ck/a?!&&p=87fcbd9496e2230d29462f8dc76c852008f3c9bd7d4fac43b47d5571f869670cJmltdHM9MTczMjA2MDgwMA&ptn=3&ver=2&hsh=4&fclid=22e0d45a-bbe1-6c71-1299-c155ba536d5b&psq=ruskin+bond&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvUnVza2luX0JvbmQ&ntb=1">RUSKIN BOND</a></li>
+        </button>
+        <button><li><img src="/images1/book6.jpeg" alt="book6"
+            height="250" width="180"><br><a href="https://www.bing.com/ck/a?!&&p=7dd2251a52646de1c3046737339ba929876b314fb322ced33b40ad81bd95b83eJmltdHM9MTczMjA2MDgwMA&ptn=3&ver=2&hsh=4&fclid=22e0d45a-bbe1-6c71-1299-c155ba536d5b&psq=charles+dickens&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ2hhcmxlc19EaWNrZW5z&ntb=1">CHARLES DICKENS</a></li>
+    </button></ul><br><br>
+    </div>
+    </section>
+    <br>
+    <br><section>
+        <div class="flatbox">
+        <h3>Just Arrived</h3>
+        <hr>
+    <ul class="second">
+        <button><li><img src="/images1/image7.jpg" alt="image7"
+            height="250" width="180"><br><a href="#">LOUISE PENNY</a></li>
+        </button><button><li><img src="/images1/image8.jpg" alt="image8"
+            height="250" width="180"><br><a href="#">J.D. VANCE</a></li>
+        </button><button><li><img src="/images1/book9.jpg" alt="book9"
+            height="250" width="180"><br><a href="#">SUDHA MURTY</a></li>
+        </button><button><li><img src="/images1/book10.jpg" alt="book10"
+            height="250" width="180"><br><a href="#">RUSKIN BOND</a></li>
+        </button><button><li><img src="/images1/book11.jpg" alt="book11"
+            height="250" width="180"><br><a href="#">HARRY POTTER</a></li>
+       </button><button><li><img src="/images1/book12.jpg" alt="book12"
+            height="250" width="180"><br><a href="#">ABDUL KALAM</a></li>
+    </button></ul><br><br>
+    </div></section>
+    <br>
+    <br><section>
+        <div class="flatbox"><h3>What we are reading</h3><hr>
+    <ul class="third">
+        <button><li><img src="/images1/book13.jpeg" alt="book13"
+            height="250" width="180"><br><a href="#">CONSTITUTION</a></li>
+        </button><button><li><img src="/images1/book14.jpeg" alt="book14"
+            height="250" width="180"><br><a href="#">30 TEENAGE STORIES</a></li>
+        </button><button><li><img src="/images1/book15.jpeg" alt="book15"
+            height="250" width="180"><br><a href="#">NAPOLEAN HILL</a></li>
+       </button><button> <li><img src="/images1/book16.jpeg" alt="book16"
+            height="250" width="180"><br><a href="#">MATHEMATICS</a></li>
+       </button> <button><li><img src="/images1/book17.jpeg" alt="book17"
+            height="250" width="180"><br><a href="#">ADELE PARKS</a></li>
+        </button><button><li><img src="/images1/book18.jpeg" alt="book18"
+            height="250" width="180"><br><a href="#">ATUL K.SHAH</a></li>
+</button></ul><br><br>
+</div>
+  </section>
+  
+    <footer>
+        <p><a href="#">About Us</a></p>
+        <!-- connected with header  -->
+        <p>Business Customers</p>
+        <p>Privacy Policy</p>
+        <p>Customer review</p>
+        <p>FAQs</p>
+        
+        <p>Terms & Conditions</p>
+        
+        <p><a href="#">Sign Up</a></p>
+        <!-- blank link -->
+        <p>Follow Us</p>
+        <p><a href="https://www.facebook.com/">Facebook</a></p>
+        <!-- google links -->
+        <p><a href="https://www.instagram.com/">Instagram</a></p>
+        <p><a href="https://twitter.com/?lang=en">X</a></p>
+        <p><a href="https://www.youtube.com/">Youtube</a></p>
+        <br>
+        <br>
+        <p id="last">copyright2024@Librarywithoutwalls.com</p>
+        <!-- id is used in home tag -->
+       </footer>
+
+  
+
+
+
+</body>
+</html>
